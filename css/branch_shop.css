@@ -1,0 +1,135 @@
+#pig div.container-fluid{
+    padding:0;
+    margin: 0;
+}
+#tittle{
+    background:#f8f8f8;
+    padding-bottom: 42px;
+}
+#tittle div.img_container{
+    text-align: center;
+}
+#tittle div.col-md-10{
+    padding-top:42px;
+}
+#tittle div.col-md-10 h4{
+    padding-top:20px;
+    font-size: 32px;
+}
+#tittle div.img_container>img{
+    height:50px;
+    width:auto;
+    margin:0 auto;
+}
+#shanghai,#beijing,#leave_message{
+    padding-top: 42px
+}
+#shanghai div.row div.col-md-12 h4:first-child,
+#beijing div.row div.col-md-12 h4:first-child,
+#leave_message div.row>div.col-xs-12>h4:first-child{
+    font-size: 18px;
+    font-weight: bold;
+}
+#shanghai div.row div.col-md-12 h4:nth-child(2),
+#beijing div.row div.col-md-12 h4:nth-child(2),
+#leave_message div.row>div.col-xs-12>h4:nth-child(2){
+    font-size: 18px;
+    color:#676767;
+}
+#shanghai div.row div.col-md-12 div:nth-child(3),
+#beijing div.row div.col-md-12 div:nth-child(3),
+#leave_message div.row>div.col-xs-12 div:nth-child(3){
+    width:20px;
+    height:1px;
+    background: #000000;
+}
+#shanghai div.row:nth-child(2),
+#beijing div.row:nth-child(2){
+    position: relative;
+    padding-top: 10px;
+}
+#beijing div.row:nth-child(2) div.col-xs-12 div:first-child,
+#shanghai div.row:nth-child(2) div.col-xs-12 div:first-child{
+    color:#434343;
+    padding-bottom:20px;
+    background:#f6f6f6 ;
+    text-indent: 20px;
+    text-align:left;
+    cursor:pointer;
+    transition:0.3s all;
+}
+#beijing div.row:nth-child(2) div.col-xs-12 div:first-child:hover,
+#shanghai div.row:nth-child(2) div.col-xs-12 div:first-child:hover{
+    box-shadow: 2px 10px 20px #c9c4c4;
+}
+#beijing div.row:nth-child(2) div.col-xs-12 div>h4,
+#shanghai div.row:nth-child(2) div.col-xs-12 div>h4{
+   font-size: 16px;
+    color: #434343;
+    padding-top: 20px;
+}
+
+
+
+#beijing div.row:nth-child(2) div.col-xs-12 div>div,
+#shanghai div.row:nth-child(2) div.col-xs-12 div>div{
+    width:40px;
+    margin-left: 20px;
+    height:1px;
+    background: #434343;
+}
+
+#beijing div.row:nth-child(2) div.col-xs-12 div>p,
+#shanghai div.row:nth-child(2) div.col-xs-12 div>p{
+    font-size: 14px;
+    color:#434343;
+    padding-top: 12px;
+    margin:0;
+}
+
+#leave_message{
+    background: #f4f4f4;
+    margin-top:40px ;
+    padding-bottom: 78px;
+}
+#leave_message div.form{
+    margin-top: 24px;
+    background: #fff;
+    padding-bottom: 50px;
+    padding:20px;
+}
+
+#uname,#main_pro,#email,#phone{
+    width:538px;
+    border:none;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+    border-radius:0;
+    outline: none;
+}
+
+#leave_message button{
+    width:124px;
+    height:36px;
+    color:#000;
+    background: #fff;
+    outline: none;
+    margin-top: 18px;
+    border:1px solid #cccccc;
+}
+#footer{
+    margin-top: 0px;
+}
+.form-control{
+    -webkit-box-shadow: none;
+}
+input{
+    outline: none;
+    box-shadow: none;
+}
+
+textarea{
+    outline:none;resize:none;
+    overflow:auto;
+}

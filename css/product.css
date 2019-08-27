@@ -1,0 +1,169 @@
+@media screen and (max-width:390px){
+    #pig div.my_carousel_caption{
+        margin: auto;
+        color:#fff;
+        text-shadow: 2px 2px 2px #000;
+        height:300px;
+        position: absolute;
+        top:10%;
+        left:0%;
+    }
+
+    #pig div.my_carousel_caption>h1 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom:4px;
+    }
+    #pig div.my_carousel_caption>p {
+        text-align: center;
+        font-size: 5px;
+        padding-top:6px;
+    }
+}
+
+@media screen and (min-width:390px) and (max-width:506px){
+    #pig div.my_carousel_caption{
+        margin: auto;
+        color:#fff;
+        text-shadow: 2px 2px 2px #000;
+        height:300px;
+        position: absolute;
+        top:30%;
+        left:1%;
+    }
+
+    #pig div.my_carousel_caption>h1 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 4px;
+    }
+    #pig div.my_carousel_caption>p {
+        text-align: center;
+        font-size: 10px;
+        padding-top:10px;
+    }
+
+}
+
+@media screen and (min-width:506px) and (max-width:997px){
+    #pig div.my_carousel_caption{
+        margin: auto;
+        color:#fff;
+        text-shadow: 2px 2px 2px #000;
+        height:300px;
+        position: absolute;
+        top:30%;
+        left:0%;
+    }
+
+    #pig div.my_carousel_caption>h1 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 2px;
+    }
+    #pig div.my_carousel_caption>p {
+        text-align: center;
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:997px ) {
+    #pig div.my_carousel_caption{
+        margin: auto;
+        color:#fff;
+        text-shadow: 2px 2px 2px #000;
+        height:300px;
+        position: absolute;
+        top:40%;
+        left:16%;
+    }
+
+    #pig div.my_carousel_caption>h1 {
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    #pig div.my_carousel_caption>p {
+        text-align: center;
+        font-size: 30px;
+        padding-top: 5px;
+    }
+}
+
+
+#produst_list  div.my_re_parent{
+   box-sizing: border-box;
+}
+
+#pig>div.container-fluid {
+     padding-right: 0px;
+     padding-left: 0px;
+}
+
+#pig div.my_caption_parent{
+    position: relative;
+}
+
+
+#pig div.my_carousel_caption>div.line {
+    height:2px;
+    background:#fff;
+    width:40px;
+    margin:0 auto;
+    box-shadow: 2px 2px 2px #fff;
+}
+#produst_list div.row:first-child {
+    padding-top:30px;
+}
+#produst_list div.container div.row>div>a{
+    display:block;
+    overflow:hidden;
+    height:100%;
+    background: #fafafa;
+}
+#produst_list  div.my_re_parent div.my_summary{
+    width:100%;
+    transition:0.5s all;
+    text-indent:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    position:relative;
+    background: #fafafa;
+    margin-bottom: 20px;
+}
+
+#produst_list  div.my_re_parent:hover div.my_summary {
+    background:#000;
+    color:#fff;
+}
+#produst_list div.container div.row>div>a>img {
+    width: 100%;
+    height: auto;
+}
+
+#produst_list  div.my_re_parent:hover a>img
+{
+    transition: 1s all;
+}
+#produst_list div.my_re_parent:hover a>img{
+    transform:scale(1.2);
+}
+
+#produst_list div.my_summary  h4{
+    font-size: 14px;
+}
+
+#produst_list div.my_summary  h4:last-child{
+    font-weight: bold;
+}
+#produst_lists  div.my_summary  h4:nth-child(2) {
+    color: #353535;
+}
+
+#my_nav{
+    padding-top: 50px;
+}
+
+#my_nav a{
+    color:#000;
+}
+

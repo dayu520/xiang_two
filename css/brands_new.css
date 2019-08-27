@@ -1,0 +1,118 @@
+#news div.img_container{
+    width:100%;
+    overflow: hidden;
+    height:280px;
+    background:#1471aa ;
+    position: relative;
+    cursor: pointer;
+}
+
+#news div.img_container:hover div{
+    background:rgba(47,112,19,0.7);
+}
+#news div.img_container div{
+    width:100%;
+    height:100%;
+    transition:1s all;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 3;
+    background:rgba(47,112,19,0);
+}
+
+#news div.img_container div p{
+    width:50px;
+    height:50px;
+    border:rgba(255,255,255,0) solid 1px;
+    border-radius: 50%;
+    position:absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+#news div.img_container div p span.glyphicon{
+    color:rgba(255,255,255,0);
+    line-height: 50px;
+    position:relative;
+    top:2px;
+    left:2px;
+    transform:rotate(-180deg);
+    transition:0.5s;
+    font-size:20px;
+}
+#news div.img_container:hover div p{
+    border:rgba(255,255,255,255) solid 1px;
+}
+#news div.img_container:hover div p span.glyphicon{
+    transform:rotate(180deg);
+    top:-2px;
+    color:rgba(255,255,255,255);
+    z-index: 30;
+}
+#news div.img_container>img{
+    position: absolute;
+    top:-40px;
+    transition:4s all;
+}
+#news div.img_container:hover img{
+    transform:scale(1.2);
+}
+#news  div.col-md-6>h4{
+    font-size: 18px;
+    color:#000;
+    text-indent: 10px;
+}
+
+#news  div.col-md-6>p{
+    font-size: 12px;
+    color:#aaaaaa;
+    line-height: 22px;
+    text-indent: 10px;
+}
+#news  div.col-md-6>span{
+    font-size: 14px;
+    text-indent: 10px;
+}
+#news  div.col-md-6 {
+   padding-bottom: 32px;
+    text-indent: 10px;
+}
+#news div.row:first-child{
+    padding-top: 72px;
+    padding-bottom: 40px;
+}
+#news div.row:first-child h1{
+    font-size: 42px;
+    font-weight: bold;
+}
+#news div.row:first-child div.col-md-12 div{
+    height:4px;
+    width:30px;
+    background: #000;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+#news div.row:first-child p{
+    font-size: 26px;
+}
+ul.small_pointer{
+    position:absolute;
+    top:0;
+    left:48%;
+}
+ul.small_pointer>li{
+    border:1px solid #fff;
+    width:24px;
+    height:24px;
+    float:left;
+    margin-right:20px;
+    border-radius: 50%;
+    background:#757373;
+}
+ul.small_pointer>li>a{
+    color:#fff;
+}
